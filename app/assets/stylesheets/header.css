@@ -1,0 +1,14 @@
+#header{
+  background: none repeat scroll 0 0 #000;
+  display: inline-block;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  height: 40px;
+}
+
+span#logo{
+  font-size: 1.8em;
+}

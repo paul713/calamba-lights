@@ -1,0 +1,19 @@
+.social-media {
+  background: none repeat scroll 0 0 #000000;
+  bottom: 0;
+  display: block;
+  height: 40px;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+}
+
+a.s-icon-skype{
+  background: url('icons/skype.png');
+}
+a.s-icon-facebook{
+  background: url('icons/facebook.png');
+}
+a.s-icon-twitter{
+  background: url('icons/twitter.png');
+}

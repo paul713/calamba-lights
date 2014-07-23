@@ -1,2 +1,116 @@
-%h1 StaticPages#home
-%p Find me in app/views/static_pages/home.html.haml
+%section.box#home
+  .container
+    .panel
+      .row-fluid
+        .col-md-12
+          %hgroup#intro
+            .logo-container
+              %img{src: 'logo.png'}
+            %h2 CALAMBA LIGHTS
+            %h3 Electrical Supplies and General Merchandise
+            %h6 A Light Distributors Company
+          .intro-btn-block
+            %button.btn.btn-large.intro-btn Facebook Button
+
+%section.box#products
+  .container
+    .panel
+      .row-fluid
+        .col-md-12
+          %hgroup
+            %h2 Products
+            %h3 Insert description here
+      .row-fluid
+        .col-md-12.content
+          %ul.row-fluid
+            %li.col-md-3
+              %i.icon-4x.icon-bell
+              %h3 Insert product here
+              %p Insert product description here
+            %li.col-md-3
+              %i.icon-4x.icon-bolt
+              %h3 Insert product here
+              %p Insert product description here
+            %li.col-md-3
+              %i.icon-4x.icon-flag
+              %h3 Insert product here
+              %p Insert product description here
+            %li.col-md-3
+              %i.icon-4x.icon-globe
+              %h3 Insert product here
+              %p Insert product description here
+          %ul.row-fluid
+            %li.col-md-3
+              %i.icon-4x.icon-fire
+              %h3 Insert product here
+              %p Insert product description here
+            %li.col-md-3
+              %i.icon-4x.icon-desktop
+              %h3 Insert product here
+              %p Insert product description here
+            %li.col-md-3
+              %i.icon-4x.icon-heart
+              %h3 Insert product here
+              %p Insert product description here
+            %li.col-md-3
+              %i.icon-4x.icon-star
+              %h3 Insert product here
+              %p Insert product description here
+
+%section.box#about
+  .container
+    .panel
+      .row-fluid
+        .col-md-12
+          %hgroup
+            %h2 About
+            %h3 Insert short description here
+      .row-fluid
+        .col-md-12.content
+          .row-fluid
+            .col-md-12.pull-center
+              %img{src: 'aboutimg.png'}
+          %hr.line
+          .flexslider
+            %ul.slides
+              %li
+                %p.quote "Insert a customer remark here"
+                %p.customer Customer A
+              %li
+                %p.quote "Insert another customer remark here"
+                %p.customer Customer B
+              %li
+                %p.quote "Insert an even better customer remark here"
+                %p.customer Customer C
+              %li
+                %p.quote "Insert a cool customer remark here"
+                %p.customer Customer D
+          %hr.line
+          %ul.row-fluid
+            %li.col-md-3
+              %img{src: 'ownerimg.png', alt: 'owner selfie'}
+              %h3 Owner name
+              %p Insert short description here
+            %li.col-md-3
+              %img{src: 'coownerimg.png', alt: 'coowner selfie'}
+              %h3 Owner name
+              %p Insert short description here
+            %li.col-md-3
+              %img{src: 'coownerimg.png', alt: 'coowner selfie'}
+              %h3 Owner name
+              %p Insert short description here
+            %li.col-md-3
+              %img{src: 'coownerimg.png', alt: 'coowner selfie'}
+              %h3 Owner name
+              %p Insert short description here
+
+%section.box#contact
+  .container
+    .panel
+      .row-fluid
+        .col-md-6
+          .map_canvas
+        .col-md-6
+          %hgroup
+            %h2 (Contact Icon)
+            %h3 Insert contact details here
