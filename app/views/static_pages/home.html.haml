@@ -21,77 +21,34 @@
           %hgroup
             %h2 Shop
           %ul.row-fluid
-            %li.col-md-3
-              %i.icon-4x.icon-bell
-              %h3 Insert product here
-              %p Insert product description here
-            %li.col-md-3
-              %i.icon-4x.icon-bolt
-              %h3 Insert product here
-              %p Insert product description here
-            %li.col-md-3
-              %i.icon-4x.icon-flag
-              %h3 Insert product here
-              %p Insert product description here
-            %li.col-md-3
-              %i.icon-4x.icon-globe
-              %h3 Insert product here
-              %p Insert product description here
+            %li.col-md-4
+              %span
+                %i.icon-2x.icon-bell
+                %span
+                  Quality Products
+            %li.col-md-4
+              %span
+                %i.icon-2x.icon-bolt
+                %span
+                  Fast Delivery
+            %li.col-md-4
+              %span
+                %i.icon-2x.icon-flag
+                %span
+                  Reliable Service
       .row-fluid
         .col-md-12.content#shop
           .iframe-rwd
             %iframe{frameborder: "0", src: "http://www.lazada.com.ph/calamba-lights/", style: "border:0", width: "100%", height: "100%"}
 
-%section.box#about
+%section.box
   .container
     .panel
       .row-fluid
         .col-md-12.header
           %hgroup
-            %h2 About
-      .row-fluid
-        .col-md-12.content
-          .row-fluid
-            .col-md-12.pull-center
-              =image_tag('aboutimg.png')
-          %hr.line
-          .flexslider
-            %ul.slides
-              %li
-                %p.quote "Insert a customer remark here"
-                %p.customer Customer A
-              %li
-                %p.quote "Insert another customer remark here"
-                %p.customer Customer B
-              %li
-                %p.quote "Insert an even better customer remark here"
-                %p.customer Customer C
-              %li
-                %p.quote "Insert a cool customer remark here"
-                %p.customer Customer D
-          %hr.line
-          %ul.row-fluid
-            %li.col-md-3
-              =image_tag('ownerimg.png', alt: 'owner selfie')
-              %h3 Owner name
-              %p Insert short description here
-            %li.col-md-3
-              =image_tag('coownerimg.png', alt: 'coowner selfie')
-              %h3 Owner name
-              %p Insert short description here
-            %li.col-md-3
-              =image_tag('coownerimg.png', alt: 'coowner selfie')
-              %h3 Owner name
-              %p Insert short description here
-            %li.col-md-3
-              =image_tag('coownerimg.png', alt: 'coowner selfie')
-              %h3 Owner name
-              %p Insert short description here
-
-%section.box#contact
-  .container
-    .panel
-      .row-fluid
+            %h2 Our Location
+      .row-fluid#contact
         .col-md-12.content
           .row-fluid
             .col-md-6
@@ -113,3 +70,8 @@
                         %i.icon-2x.icon-phone
                         %span
                           +63 49 547 8393
+                    %li
+                      =image_tag('owner.jpg', alt: 'owner-primar-pic')
+                      %h3
+                        %a{href: 'https://www.linkedin.com/pub/cet-dizon/6/8a6/24a'}
+                          Cet Dizon II

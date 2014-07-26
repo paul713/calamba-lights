@@ -9,7 +9,7 @@ body {
 }
 .page{
 	section {
-	  height: 100vh;
+	  height: 100%;
   }
   .container {
 	  height: inherit;
@@ -22,11 +22,17 @@ body {
 		.container {
 			padding-top: 0;
 			.panel {
-				margin-top: 70px;
+				margin-top: 50px;
 			}
 		}
 	}
 	#products {
+		ul {
+			span {
+				color: #fff;
+				font-size: 28px;
+			}
+		}
 		.content {
 			padding: 20px;
 		}
@@ -55,4 +61,10 @@ body {
   padding-top: 30px;
   height: 0;
   overflow: hidden;
+}
+
+.copyright {
+	font-weight: bold;
+	color: #fff;
+	padding-top: 10px;
 }
