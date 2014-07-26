@@ -10,22 +10,22 @@
       %a.navbar-brand{href: "#"}
         %span#brand
           =image_tag('icon.png', width: '48')
-        
+
     / Collect the nav links, forms, and other content for toggling
     #bs-example-navbar-collapse-1.collapse.navbar-collapse
       %ul.nav.navbar-nav
         %li#logo
           Calamba Lights
         %li
-          %a.active{'data-nav' => 'scroll', href: '#home'}
+          %a{'data-nav' => 'scroll', href: '#home'}
             Home
         %li
-          %a.active{'data-nav' => 'scroll', href: '#products'}
+          %a{'data-nav' => 'scroll', href: '#products'}
             Products
         %li
-          %a.active{'data-nav' => 'scroll', href: '#about'}
+          %a{'data-nav' => 'scroll', href: '#about'}
             About
         %li
-          %a.active{'data-nav' => 'scroll', href: '#contact'}
+          %a{'data-nav' => 'scroll', href: '#contact'}
             Contact
 
