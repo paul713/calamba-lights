@@ -2,7 +2,7 @@
   .container
     .panel
       .row-fluid
-        .col-md-12
+        .col-md-12.header
           %hgroup#intro
             .logo-container
               =image_tag('logo.png')
@@ -17,7 +17,7 @@
   .container
     .panel
       .row-fluid
-        .col-md-12
+        .col-md-12.header
           %hgroup
             %h2 Products
             %h3 Insert description here
@@ -62,7 +62,7 @@
   .container
     .panel
       .row-fluid
-        .col-md-12
+        .col-md-12.header
           %hgroup
             %h2 About
             %h3 Insert short description here
@@ -109,9 +109,11 @@
   .container
     .panel
       .row-fluid
-        .col-md-6
-          .map_canvas
-        .col-md-6
-          %hgroup
-            %h2 (Contact Icon)
-            %h3 Insert contact details here
+        .col-md-12
+          .row-fluid
+            .col-md-6.content
+              .map_canvas
+            .col-md-6.header
+              %hgroup
+                %h2 (Contact Icon)
+                %h3 Insert contact details here
