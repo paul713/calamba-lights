@@ -8,10 +8,9 @@
               =image_tag('logo.png')
             %h2 CALAMBA LIGHTS
             %h3 Electrical Supplies and General Merchandise
-            %h6 A Light Distributors Company
+            %h6 Started 1995 of November 28 as a small store of electrical supplies with fluorescent lamps and incandescent light bulbs as the main product. With a vision to engage in the retail, wholesale, distribution of Electrical, Electronic, Hardware, Industrial Supplies and General Merchandise throughout the Calabarzon area and the rest of the island.
           .intro-btn-block
             %button.btn.btn-large.intro-btn Facebook Button
-            %button.btn.btn-large.lighting
 
 %section.box#products
   .container
@@ -65,7 +64,6 @@
         .col-md-12.header
           %hgroup
             %h2 About
-            %h3 Insert short description here
       .row-fluid
         .col-md-12.content
           .row-fluid
@@ -109,11 +107,24 @@
   .container
     .panel
       .row-fluid
-        .col-md-12
+        .col-md-12.content
           .row-fluid
-            .col-md-6.content
-              .map_canvas
-            .col-md-6.header
-              %hgroup
-                %h2 (Contact Icon)
-                %h3 Insert contact details here
+            .col-md-6
+              .iframe-rwd
+                %iframe{frameborder: "0", height: "450", src: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7736.031372523412!2d121.1453798!3d14.1938596!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd63bfffd98561%3A0xb09a300e84a0062e!2sCalamba+Lights+Electrical+Supplies+%26+Gen.+MDSE.!5e0!3m2!1sen!2s!4v1406362550140", style: "border:0", width: "600"}
+            .col-md-6
+              .row-fluid
+                .col-md-12#address
+                  %ul
+                    %li
+                      %span
+                        %i.icon-2x.icon-map-marker
+                        %span
+                          Block 119, Lot 92, Phase 7, Villa de Calamba,
+                          %br
+                          La Mesa, Calamba City PH 4027
+                    %li
+                      %span
+                        %i.icon-2x.icon-phone
+                        %span
+                          +63 49 547 8393

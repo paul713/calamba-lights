@@ -1,12 +1,13 @@
 // Place all the styles related to the StaticPages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-
-.page{
-	background-image: url('bg2.jpg');
+body {
+	background-image: url('bg2.jpg') !important;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: 0;
+}
+.page{
 	section {
 	  height: 100vh;
   }
@@ -17,4 +18,30 @@
 	  	border: 0;
 	  }
 	}
+	#home {
+		.container {
+			padding-top: 0;
+		}
+	}
+	#contact {
+		.content {
+			padding: 30px;
+		}
+		#address {
+			background-color: rgba(195, 195, 195, 0.45);
+			padding: 45px 0;
+			text-align: center;
+			span {
+				font-size: 20px;
+			}
+		}
+	}
+}
+
+.iframe-rwd {
+  position: relative;
+  padding-bottom: 65.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
 }
