@@ -10,7 +10,8 @@
             %h3 Electrical Supplies and General Merchandise
             %h6 Started 1995 of November 28 as a small store of electrical supplies with fluorescent lamps and incandescent light bulbs as the main product. With a vision to engage in the retail, wholesale, distribution of Electrical, Electronic, Hardware, Industrial Supplies and General Merchandise throughout the Calabarzon area and the rest of the island.
           .intro-btn-block
-            %button.btn.btn-large.intro-btn Facebook Button
+            %a.btn.btn-lg.btn-success{'data-nav' => 'scroll', href: '#products'}
+              Lazada Shop
 
 %section.box#products
   .container
@@ -18,10 +19,7 @@
       .row-fluid
         .col-md-12.header
           %hgroup
-            %h2 Products
-            %h3 Insert description here
-      .row-fluid
-        .col-md-12.content
+            %h2 Shop
           %ul.row-fluid
             %li.col-md-3
               %i.icon-4x.icon-bell
@@ -39,23 +37,10 @@
               %i.icon-4x.icon-globe
               %h3 Insert product here
               %p Insert product description here
-          %ul.row-fluid
-            %li.col-md-3
-              %i.icon-4x.icon-fire
-              %h3 Insert product here
-              %p Insert product description here
-            %li.col-md-3
-              %i.icon-4x.icon-desktop
-              %h3 Insert product here
-              %p Insert product description here
-            %li.col-md-3
-              %i.icon-4x.icon-heart
-              %h3 Insert product here
-              %p Insert product description here
-            %li.col-md-3
-              %i.icon-4x.icon-star
-              %h3 Insert product here
-              %p Insert product description here
+      .row-fluid
+        .col-md-12.content#shop
+          .iframe-rwd
+            %iframe{frameborder: "0", src: "http://www.lazada.com.ph/calamba-lights/", style: "border:0", width: "100%", height: "100%"}
 
 %section.box#about
   .container

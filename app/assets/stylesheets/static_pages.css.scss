@@ -21,6 +21,17 @@ body {
 	#home {
 		.container {
 			padding-top: 0;
+			.panel {
+				margin-top: 70px;
+			}
+		}
+	}
+	#products {
+		.content {
+			padding: 20px;
+		}
+		#shop {
+			padding: 10px;
 		}
 	}
 	#contact {
